@@ -14,7 +14,7 @@ c = Camera((600, 600))
 
 while True:
     for event in pygame.event.get():
-        window.fill((0,0,0))
+        window.fill((0, 0, 0))
         if event.type == pygame.QUIT:
             exit()
         if event.type == pygame.KEYDOWN:
